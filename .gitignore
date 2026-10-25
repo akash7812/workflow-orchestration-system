@@ -24,3 +24,20 @@ hs_err_pid*
 replay_pid*
 .idea/
 *.iml
+
+
+# Ignore environment secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Ignore unused frontend folders
+/workflow-orchestrator/
+/workflow-ui/
+/Backend/workflow-orchestrator/
+
+# Ignore generated files
+**/node_modules/
+**/dist/
+**/target/
+
